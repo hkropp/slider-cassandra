@@ -1,0 +1,19 @@
+{
+  "schema": "http://example.org/specification/v2.0.0",
+  "metadata": {
+  },
+  "global": {
+  },
+  "components": {
+    "CASSANDRA_ONE": {
+      "yarn.role.priority": "1",
+      "yarn.memory": "512"
+    },
+    "CASSANDRA_TWO": {
+      "yarn.role.priority": "2",
+      "yarn.memory": "512"
+    },
+    "slider-appmaster": {
+    }
+  }
+}

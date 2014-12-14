@@ -1,0 +1,25 @@
+{
+  "schema": "http://example.org/specification/v2.0.0",
+  "metadata": {
+  },
+  "global": {
+    "application.def": "slider-cassandra-1.2.19_0.1.zip",
+    "java_home": "/usr/jdk64/jdk1.7.0_67",
+
+    "site.global.cluster_name": "Slider Cluster",
+    "site.global.host": "${THIS_HOST}",
+    "site.global.max_heap_size": "512M",
+    "site.global.heap_newsize": "128M",
+    "site.cassandra-site-one.host": "${CASSANDRA_ONE_HOST}",
+    "site.cassandra-site-two.host": "${CASSANDRA_TWO_HOST}"
+  },
+  "components": {
+    "CASSANDRA_ONE": {
+    },
+    "CASSANDRA_TWO": {
+    },
+    "slider-appmaster": {
+      "jvm.heapsize": "256M"
+    }
+  }
+}
